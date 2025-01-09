@@ -10,6 +10,6 @@ body{
     cursor: pointer;
 }
 
-#myLabel{
+.mylabels{
     font-size: 3em;
 }
