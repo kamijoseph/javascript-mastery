@@ -48,7 +48,7 @@ button:hover{
     color: hsl(0, 0%, 95%);
 }
 
-#result{
+#results{
     font-size: 1.75em;
     padding-top: 10px;
     font-weight: bold;
