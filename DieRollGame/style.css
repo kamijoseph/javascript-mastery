@@ -5,3 +5,31 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(69, 254, 193);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(8, 113, 113);
+    color: azure;
+}
+
+button:active{
+    background-color: rgb(15, 184, 164);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
