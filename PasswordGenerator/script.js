@@ -1,6 +1,13 @@
 
 // Random Password Generator
 function generatePassword(lenght, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
+    const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+    const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const numberChars = "0123456789";
+    const symbolChars = "!@#$%^&*()+?<>~`/";
+
+    let allowedChars = "";
+    let password = "";
 
     return '';
 }
