@@ -1,6 +1,6 @@
 
 // Random Password Generator
-function generatePassword(lenght, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
+function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
     const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const numberChars = "0123456789";
@@ -14,7 +14,7 @@ function generatePassword(lenght, includeLowercase, includeUppercase, includeNum
     allowedChars += includeNumbers ? numberChars: "";
     allowedChars += includeSymbols ? symbolChars: "";
 
-    if (lenght < 4){
+    if (length < 4){
         return `(Password length must be above 4 characters)`;
     }
     if (allowedChars === 0){
