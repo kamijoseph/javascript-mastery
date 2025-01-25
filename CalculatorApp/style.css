@@ -1,8 +1,16 @@
 
 /* Calculator app styling code */
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #calculator{
     font-family: verdana;
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(129, 52%, 15%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -15,6 +23,15 @@
     padding: 25px;
 }
 
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 10%);
+}
+
 button{
     height: 100px;
     width: 100px;
@@ -25,4 +42,25 @@ button{
     font-weight: bold;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
 }
