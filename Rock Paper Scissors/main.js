@@ -6,5 +6,9 @@ const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
 
 function playGame(playerChoice){
-    const computerChoice =choices[Math.floor(Math.random() * 3)]
+    const computerChoice =choices[Math.floor(Math.random() * 3)];
+    let result = "";
+    if (playerChoice === computerChoice){
+        result = "ITS A TIE!";
+    };
 }
