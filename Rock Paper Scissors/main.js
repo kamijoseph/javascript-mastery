@@ -28,4 +28,5 @@ function playGame(playerChoice){
 
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `PLAYER: ${computerChoice}`;
+    resultDisplay.textContent = result;
 }
