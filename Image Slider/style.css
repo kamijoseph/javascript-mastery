@@ -6,7 +6,11 @@
     overflow: hidden;
 }
 
-.slider img{
+.slides img{
     width: 100%;
     display: none;
+}
+
+img.displaySlide{
+    display: block;
 }
