@@ -19,7 +19,7 @@ function showSlide(index){
         slideIndex = 0;
     }
     else if(index < 0){
-        slideIndex = slide.length - 1;
+        slideIndex = slides.length - 1;
     }
 
     slides.forEach(slide => {
@@ -32,6 +32,7 @@ function prevSlide(){
     clearInterval(intervalId);
     slideIndex--;
     showSlide(slideIndex);
+    intervalId = setInterval(nextSlide, 5000);
 }
 
 function nextSlide(){

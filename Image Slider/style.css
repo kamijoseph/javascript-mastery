@@ -9,9 +9,36 @@
 .slides img{
     width: 100%;
     display: none;
-    max-height: 60vh;
+   height: 100%;
 }
 
 img.displaySlide{
     display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: hsl(0, 0%, 0%, 0.5);
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+@keyframes fade{
+    from{opacity: .5;}
+    to{opacity: 1}
 }
